@@ -25,7 +25,7 @@ cd pkg-config
 3. Now setup pkg-config using meson. Use `--prefix` flag to specify installation directory. For more meson options see [meson_options.txt](https://github.com/clitic/pkg-config/blob/main/meson_options.txt).
 
 ```bash
-meson setup build --buildtype release --warnlevel 0 --default-library static --prefix c:/pkg-config -Dbuild-glib=true
+meson setup build --buildtype release --warnlevel 0 --default-library static --prefix c:/pkg-config -Dstatic-glib=true
 ```
 
 4. Now install pkg-config using meson. The skipped subprojects are not needed at runtime if you still want to keep them, then remove `--skip-subprojects` flag.
