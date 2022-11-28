@@ -1,4 +1,10 @@
 option(
+  'pc-path',
+  type: 'string',
+  value: 'auto',
+)
+
+option(
   'system-include-path',
   type: 'string',
   value: 'auto',
