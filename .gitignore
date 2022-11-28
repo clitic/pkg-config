@@ -1,0 +1,12 @@
+build/*
+subprojects/glib/*
+subprojects/libffi/*
+subprojects/packagecache/*
+subprojects/pcre2-10.40/*
+subprojects/proxy-libintl/*
+subprojects/zlib-1.2.11/*
+subprojects/gvdb.wrap
+subprojects/libffi.wrap
+subprojects/pcre2.wrap
+subprojects/proxy-libintl.wrap
+subprojects/zlib.wrap

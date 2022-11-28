@@ -1,0 +1,38 @@
+option(
+  'system-include-path',
+  type: 'string',
+  value: 'auto',
+)
+
+option(
+  'system-library-path',
+  type: 'string',
+  value: 'auto',
+)
+
+option(
+  'enable-define-prefix',
+  type: 'boolean',
+  value: true
+)
+
+option(
+  'enable-indirect-deps',
+  type: 'boolean',
+  value: true
+)
+
+option(
+  'build-glib',
+  type: 'combo',
+  choices: ['auto', 'true'],
+  value: 'auto',
+  description: 'build glib'
+)
+
+option(
+  'static-glib',
+  type: 'boolean',
+  value: false,
+  description: 'link pkg-config with static version of system glib'
+)
