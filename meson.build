@@ -16,7 +16,7 @@ pc_path = get_option('pc-path')
 if pc_path == 'auto'
   pkg_config_defines += '-DPKG_CONFIG_PC_PATH="/usr/lib/pkgconfig:/usr/local/lib/pkgconfig"'
 elif pc_path != 'auto'
-  pkg_config_defines += '-DPKG_CONFIG_PC_PATH="@pc_path@"'
+  pkg_config_defines += f'-DPKG_CONFIG_PC_PATH="@pc_path@"'
 endif
 
 system_include_path = get_option('system-include-path')
